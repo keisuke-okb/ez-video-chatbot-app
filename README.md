@@ -1,6 +1,8 @@
 # ez-video-chatbot-app
 Sample app that uses videos of avatars or humans talking to create a GUI-based AI chatbot
 
+[日本語のREADMEはこちら](README_JP.md)
+
 ## Features
 - By switching the videos played according to the conversation situation, this "pseudo" dialogue app can make it look like the avatar/human in the video is talking in real-time.
 - Using free speech recognition libraries and free speech synthesis software, real-time conversations can be conducted.
