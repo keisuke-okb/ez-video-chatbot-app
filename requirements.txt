@@ -1,0 +1,7 @@
+torch
+whisper_mic
+imageio
+pydub
+pillow
+llama-index==0.10.68
+openai==1.42.0
