@@ -66,6 +66,9 @@ To fix the device you want to use, edit `tts.py`.
 ### LLM Prompts
 - `prompts/system_prompt.txt`: System prompt
 
+### RAG Data
+- Please locate your text files for RAG to `rag/` folder.
+
 ### UI Settings
 - `constants.py`: Specifies videos, chat background color, text color, and fixed values such as conversation end keywords.
 
