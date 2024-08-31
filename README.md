@@ -3,7 +3,8 @@ Sample app that uses videos of avatars or humans talking to create a GUI-based A
 
 [日本語のREADMEはこちら](README_JP.md)
 
-![image](https://github.com/user-attachments/assets/4b137d30-c26a-4d00-a849-184e4f723893)
+![image](https://github.com/user-attachments/assets/b4fabefd-a212-4180-be48-5eb990af5a74)
+
 
 ## Features
 - By switching the videos played according to the conversation situation, this "pseudo" dialogue app can make it look like the avatar/human in the video is talking in real-time.
