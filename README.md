@@ -35,16 +35,23 @@ Sample app that uses videos of avatars or humans talking to create a GUI-based A
 The following software installations are required:
 - **ffmpeg**: For playing mp4 videos (Add the path where `ffmpeg.exe` is located to the environment variable `PATH`)
 - **VOICEVOX**: For Japanese speech synthesis (If possible, specify the GPU for the synthesis engine in the settings)
+- **OpenAI API Key**: For generating chat. Get API key that can use GPT-4o (if you want to use another model, please edit `chat.py`).
 
 If your PC supports CUDA, installing CUDA-compatible PyTorch from the official PyTorch website will improve performance.
 [https://pytorch.org/get-started/locally/](https://pytorch.org/get-started/locally/)
 
-Install the necessary modules for running the application:
+- Install the necessary modules for running the application:
 ```sh
 pip install -r requirements.txt
 ```
 
-Execute the following command to launch the GUI screen:
+- Edit `constants.py` and paste your API key:
+```python
+class Constants:
+    OPENAI_API_KEY = "sk-XXX"
+```
+
+- Execute the following command to launch the GUI screen:
 ```sh
 python3 main.py
 ```
