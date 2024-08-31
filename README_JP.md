@@ -73,6 +73,9 @@ python3 main.py
 ### LLMのプロンプト
 `prompts/system_primpt.txt`：システムプロンプト
 
+### RAGデータ
+`rag/`フォルダ内に参照するテキストファイルを格納してください
+
 ### UI関連の設定
 `constants.py`：動画の指定、チャットの背景色・文字色や、会話終了キーワードなどの固定値
 
