@@ -3,7 +3,7 @@ Sample app that uses videos of avatars or humans talking to create a GUI-based A
 
 [日本語のREADMEはこちら](README_JP.md)
 
-![image](https://github.com/user-attachments/assets/b4fabefd-a212-4180-be48-5eb990af5a74)
+![image](https://github.com/user-attachments/assets/7ec839f5-6aff-4655-a193-5f1aa419207e)
 
 
 ## Features
