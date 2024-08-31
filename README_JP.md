@@ -1,5 +1,9 @@
 # EZ-Video-Chatbot-App
 
+適用例：家電量販店の商品紹介アシスタント
+
+![image](https://github.com/user-attachments/assets/4b137d30-c26a-4d00-a849-184e4f723893)
+
 ## アプリ概要
 
 「イージービデオチャットボット」アプリ
