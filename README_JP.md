@@ -2,7 +2,7 @@
 
 適用例：家電量販店の商品紹介アシスタント
 
-![image](https://github.com/user-attachments/assets/b4fabefd-a212-4180-be48-5eb990af5a74)
+![image](https://github.com/user-attachments/assets/7ec839f5-6aff-4655-a193-5f1aa419207e)
 
 ## アプリ概要
 
