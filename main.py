@@ -237,7 +237,7 @@ if __name__ == '__main__':
     root.geometry('1920x1080') 
     root.configure(bg='blue')
     root.resizable(False, False)
-    root.title("EZ Avatar Chatbot")
+    root.title("EZ Video Chatbot")
 
     app = EZVideoChatBotApp(root)
     root.mainloop()
