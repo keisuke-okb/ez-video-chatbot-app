@@ -42,6 +42,7 @@
 以下のソフトウェアのインストールが必要です。
 - ffmpeg：mp4動画の再生（ffmpeg.exeのあるパスを環境変数PATHに追加してください）
 - VOICEVOX：日本語の音声合成（可能な場合は、設定から合成エンジンにGPUを指定してください）
+- OpenAI API：対話生成に必要です。GPT-4o（その他のモデルを指定する場合、`chat.py`を変更）が利用可能なAPIキーを取得してください。
 
 - CUDAが利用可能なPCの場合、pytorchの公式サイトからCUDAに対応したPyTorchをインストールしておくと動作が快適になります。
 https://pytorch.org/get-started/locally/
@@ -50,6 +51,12 @@ https://pytorch.org/get-started/locally/
 ```sh
 pip install -r requirements.txt
 ```
+- constants.pyを編集し、APIキーを貼り付けて保存します。
+```python
+class Constants:
+    OPENAI_API_KEY = "sk-XXX"
+```
+
 - 以下のコマンドを実行することでGUI画面が起動します。
 ```sh
 python3 main.py
@@ -68,4 +75,9 @@ python3 main.py
 
 ### UI関連の設定
 `constants.py`：動画の指定、チャットの背景色・文字色や、会話終了キーワードなどの固定値
+
+## 処理シーケンス
+
+![image](https://github.com/user-attachments/assets/1dcb321d-f4c0-4ec8-a0e1-fa3b30664dae)
+
 
